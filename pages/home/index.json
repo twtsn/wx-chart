@@ -1,11 +1,11 @@
 {
   "usingComponents": {
-    "i-grid": "../../dist/grid/index",
-    "i-grid-item": "../../dist/grid-item/index",
-    "i-grid-icon": "../../dist/grid-icon/index",
-    "i-grid-label": "../../dist/grid-label/index",
-    "i-icon": "../../dist/icon/index",
-    "i-row": "../../dist/row/index",
-    "i-tag": "../../dist/tag/index"
+    "i-grid": "../../iview/grid/index",
+    "i-grid-item": "../../iview/grid-item/index",
+    "i-grid-icon": "../../iview/grid-icon/index",
+    "i-grid-label": "../../iview/grid-label/index",
+    "i-icon": "../../iview/icon/index",
+    "i-row": "../../iview/row/index",
+    "i-tag": "../../iview/tag/index"
   }
 }
