@@ -1,0 +1,4 @@
+<view class='map-view'>
+<button bindtap='moveToLocation'>当前位置</button>
+<map id="myMap"  scale="14"  latitude="{{latitude}}" longitude="{{longitude}}"  show-location style="width: 100%; height: 100%;" markers="{{markers}}"></map>
+</view>
