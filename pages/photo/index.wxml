@@ -1,0 +1,14 @@
+<view>
+<button style="margin:30px;" bindtap="chooseimage">获取图片</button>
+</view>
+<view>
+<i-grid>
+    <i-row>
+        <i-grid-item wx:for="{{tempFilePaths}}" wx:key='{{index}}'>
+         <i-tag class="i-tags img-info">{{item.size}}</i-tag >
+         <image src="{{item.path }}" mode="aspectFit" bindtap="previewImage" data-src="{{item.path }}"/>
+         <i-tag class="i-tags-bottom img-info">{{item.w}} x {{item.h}} {{item.imgType}}</i-tag >
+        </i-grid-item>
+    </i-row>
+</i-grid>
+</view>
