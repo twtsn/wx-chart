@@ -1,5 +1,6 @@
 <view>
 <button style="margin:30px;" bindtap="chooseimage">获取图片</button>
+<text class="clean-imgs" bindtap='cleanImgs'>清空</text>
 </view>
 <view>
 <i-grid>

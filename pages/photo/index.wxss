@@ -13,3 +13,10 @@ image{
   bottom:3px;
   right:3px;
 }
+.clean-imgs{
+  font-size:14px;
+  position:absolute;
+  top:0px;
+  right:10px;
+  color:red;
+}

@@ -108,5 +108,10 @@ Page({
        current: current, // 当前显示图片的http链接		  	
        urls: imgs // 需要预览的图片http链接列表		
        })
+  },
+  cleanImgs () {
+    this.setData({
+      tempFilePaths: []
+    })
   }
 })
